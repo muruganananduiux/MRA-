@@ -1145,3 +1145,31 @@ header {
     font-size: 0.85rem;
   }
 }
+/* ================================
+   MOBILE HERO LOGO FIX
+================================ */
+
+@media (max-width: 768px) {
+
+  /* Logo ko normal flow me lao */
+  .hero-logo {
+    position: static;
+    transform: none;
+    margin-bottom: 20px;
+  }
+
+  /* Logo size chota */
+  .hero-logo img {
+    width: 140px;
+  }
+
+  /* Hero content ko upar se space */
+  .hero {
+    padding-top: 120px;
+    height: auto;
+  }
+
+  .hero-content {
+    margin-top: 0;
+  }
+}
