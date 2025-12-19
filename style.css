@@ -1137,11 +1137,11 @@ header {
 /* Hero ko vertical stack bana do */
 .hero {
   display: flex;
+  flex-direction: column;      /* 🔴 MOST IMPORTANT */
   align-items: center;
-  justify-content: center;   /* 🔴 center wapas */
-  height: 100vh;             /* 🔴 full screen */
-  text-align: center;
-  padding-top: 0;            /* desktop pe extra padding nahi */
+  justify-content: flex-start;
+  padding-top: 150px;          /* navbar ke niche space */
+  height: auto;
 }
 
 /* Logo top pe center */
@@ -1149,7 +1149,7 @@ header {
   position: static;            /* absolute hata */
   width: 100%;
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 100px;
 }
 
 /* Logo image center */
@@ -1163,5 +1163,3 @@ header {
 .hero-content {
   text-align: center;
 }
-
-
