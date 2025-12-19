@@ -1164,12 +1164,4 @@ header {
   text-align: center;
 }
 
-@media (max-width: 768px) {
-  .hero {
-    justify-content: flex-start;
-    padding-top: 110px;      /* navbar ke niche */
-    height: auto;
-    flex-direction: column;
-  }
-}
 
