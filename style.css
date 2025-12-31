@@ -4,7 +4,7 @@
 */
 :root {
     --primary-color: #FF0000; /* Red from MRA Logo */
-    --secondary-color: #0d47a1; /* Deep Water Blue */
+    --secondary-color: #021a3a; /* Deep Water Blue */
     --dark-text: #000000;
     --light-text: #ffffff;
     --accent-grey: #ffffff;
@@ -12,7 +12,7 @@
 }
 .navbar {
     width: 100%;
-    background-color: #000080;   /* Blue header */
+    background-color: #021a3a;   /* Blue header */
     margin: 0;
     padding: 20px 0;             /* Top & bottom equal space */
     display: flex;
@@ -191,7 +191,7 @@ header {
     top: 80px;
     right: -100%;
     flex-direction: column;
-    background: #111c73;
+    background: #021a3a;
     width: 100%;
     height: 300px;
     text-align: center;
@@ -371,7 +371,7 @@ body {
   margin-top: 10px;
   align-self: flex-start;
   border: none;
-  background: #0d47a1;
+  background: #021a3a;
   color: #ffffff;
   padding: 6px 14px;
   border-radius: 999px;
@@ -381,7 +381,7 @@ body {
 }
 
 .see-more-btn:hover {
-  background: #0d47a1;
+  background: #021a3a;
 }
 
 /* SERVICES SECTION */
@@ -452,7 +452,7 @@ body {
 .discover h2 {
     font-size: 28px;
     font-weight: 700;
-    color: #0d47a1;
+    color: #021a3a;
     margin-bottom: 30px;
 }
 
@@ -527,10 +527,12 @@ body {
 }
 
 .info-box i {
-    font-size: 35px;
+    font-size: 32px;
     color: red;
     margin-bottom: 12px;
+    display: block;
 }
+
 
 .info-box h4 {
     font-size: 1.2rem;
@@ -652,7 +654,7 @@ body {
 
 /* 2. Make the Header Full Width and Blue */
 header {
-    background-color: #000080; /* This is the Blue Color */
+    background-color: #021a3a; /* This is the Blue Color */
     width: 100%;               /* Forces the bar to take full screen width */
     position: relative;        /* Keeps it positioned correctly */
     top: 0;
@@ -1164,3 +1166,4 @@ header {
   text-align: center;
   margin-bottom: 150px;
 }
+
